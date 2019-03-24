@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 
-void quark_hash(const char* input, char* output);
+//void quark_hash(const char* input, char* output);
+void xevan_hash(const char* input, char* output);
 
 #endif /* quark_h */

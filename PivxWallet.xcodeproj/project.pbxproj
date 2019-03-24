@@ -52,6 +52,27 @@
 		2BFA523C1FE0AC5C00A3C808 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA523B1FE0AC5C00A3C808 /* MenuController.swift */; };
 		31D68B531C23B6C10030FAAA /* DashWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D68B521C23B6C10030FAAA /* DashWalletUITests.swift */; };
 		31D68B5B1C23B6FD0030FAAA /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D68B5A1C23B6FD0030FAAA /* SnapshotHelper.swift */; };
+		5AD260E02247D51200F7CBEF /* shavite.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260B62247D50700F7CBEF /* shavite.c */; };
+		5AD260E12247D51200F7CBEF /* sph_sha2big.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260B72247D50700F7CBEF /* sph_sha2big.c */; };
+		5AD260E22247D51200F7CBEF /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260B92247D50800F7CBEF /* sha2.c */; };
+		5AD260E32247D51200F7CBEF /* simd.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260BA2247D50800F7CBEF /* simd.c */; };
+		5AD260E42247D51200F7CBEF /* luffa.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260BB2247D50800F7CBEF /* luffa.c */; };
+		5AD260E52247D51200F7CBEF /* hamsi_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260C02247D50A00F7CBEF /* hamsi_helper.c */; };
+		5AD260E62247D51200F7CBEF /* fugue.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260C22247D50A00F7CBEF /* fugue.c */; };
+		5AD260E72247D51200F7CBEF /* groestl.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260C42247D50B00F7CBEF /* groestl.c */; };
+		5AD260E82247D51200F7CBEF /* haval.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260C52247D50B00F7CBEF /* haval.c */; };
+		5AD260E92247D51200F7CBEF /* shabal.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260C62247D50C00F7CBEF /* shabal.c */; };
+		5AD260EA2247D51200F7CBEF /* bmw.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260C92247D50C00F7CBEF /* bmw.c */; };
+		5AD260EB2247D51200F7CBEF /* jh.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260CB2247D50D00F7CBEF /* jh.c */; };
+		5AD260EC2247D51200F7CBEF /* keccak.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260CC2247D50E00F7CBEF /* keccak.c */; };
+		5AD260ED2247D51200F7CBEF /* hamsi.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260D22247D50F00F7CBEF /* hamsi.c */; };
+		5AD260EE2247D51200F7CBEF /* hash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260D32247D50F00F7CBEF /* hash.cpp */; };
+		5AD260EF2247D51300F7CBEF /* skein.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260D42247D51000F7CBEF /* skein.c */; };
+		5AD260F02247D51300F7CBEF /* whirlpool.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260D62247D51000F7CBEF /* whirlpool.c */; };
+		5AD260F22247D51300F7CBEF /* cubehash.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260D92247D51100F7CBEF /* cubehash.c */; };
+		5AD260F32247D51300F7CBEF /* blake.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260DA2247D51100F7CBEF /* blake.c */; };
+		5AD260F42247D51300F7CBEF /* echo.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260DB2247D51100F7CBEF /* echo.c */; };
+		5AD260F52247D51300F7CBEF /* aes_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD260DC2247D51200F7CBEF /* aes_helper.c */; };
 		6BA7F2911FDF048100C1027B /* quark.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7F2901FDF048100C1027B /* quark.c */; };
 		6BD745B41FE56EE500B94848 /* BRPivxUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD745B31FE56EE500B94848 /* BRPivxUtils.m */; };
 		751B2B5C1B68911700EA87FB /* BRTxHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751B2B5B1B68911700EA87FB /* BRTxHistoryViewController.m */; };
@@ -273,6 +294,46 @@
 		31D68B5A1C23B6FD0030FAAA /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		3E3EBD821008041F3B3911D7 /* Pods-pivxwallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pivxwallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-pivxwallet/Pods-pivxwallet.release.xcconfig"; sourceTree = "<group>"; };
 		52C978F753836B477A7FE473 /* Pods_pivxwallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pivxwallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD260B42247D50700F7CBEF /* sph_skein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_skein.h; sourceTree = "<group>"; };
+		5AD260B62247D50700F7CBEF /* shavite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shavite.c; sourceTree = "<group>"; };
+		5AD260B72247D50700F7CBEF /* sph_sha2big.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sph_sha2big.c; sourceTree = "<group>"; };
+		5AD260B82247D50800F7CBEF /* sph_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_types.h; sourceTree = "<group>"; };
+		5AD260B92247D50800F7CBEF /* sha2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha2.c; sourceTree = "<group>"; };
+		5AD260BA2247D50800F7CBEF /* simd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = simd.c; sourceTree = "<group>"; };
+		5AD260BB2247D50800F7CBEF /* luffa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = luffa.c; sourceTree = "<group>"; };
+		5AD260BC2247D50900F7CBEF /* sph_jh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_jh.h; sourceTree = "<group>"; };
+		5AD260BD2247D50900F7CBEF /* sph_blake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_blake.h; sourceTree = "<group>"; };
+		5AD260BE2247D50900F7CBEF /* sph_fugue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_fugue.h; sourceTree = "<group>"; };
+		5AD260BF2247D50900F7CBEF /* sph_simd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_simd.h; sourceTree = "<group>"; };
+		5AD260C02247D50A00F7CBEF /* hamsi_helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hamsi_helper.c; sourceTree = "<group>"; };
+		5AD260C12247D50A00F7CBEF /* sph_haval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_haval.h; sourceTree = "<group>"; };
+		5AD260C22247D50A00F7CBEF /* fugue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fugue.c; sourceTree = "<group>"; };
+		5AD260C32247D50B00F7CBEF /* sph_shavite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_shavite.h; sourceTree = "<group>"; };
+		5AD260C42247D50B00F7CBEF /* groestl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = groestl.c; sourceTree = "<group>"; };
+		5AD260C52247D50B00F7CBEF /* haval.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = haval.c; sourceTree = "<group>"; };
+		5AD260C62247D50C00F7CBEF /* shabal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shabal.c; sourceTree = "<group>"; };
+		5AD260C72247D50C00F7CBEF /* sph_groestl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_groestl.h; sourceTree = "<group>"; };
+		5AD260C82247D50C00F7CBEF /* sph_shabal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_shabal.h; sourceTree = "<group>"; };
+		5AD260C92247D50C00F7CBEF /* bmw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bmw.c; sourceTree = "<group>"; };
+		5AD260CA2247D50D00F7CBEF /* sph_echo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_echo.h; sourceTree = "<group>"; };
+		5AD260CB2247D50D00F7CBEF /* jh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jh.c; sourceTree = "<group>"; };
+		5AD260CC2247D50E00F7CBEF /* keccak.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keccak.c; sourceTree = "<group>"; };
+		5AD260CD2247D50E00F7CBEF /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		5AD260CE2247D50E00F7CBEF /* sph_bmw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_bmw.h; sourceTree = "<group>"; };
+		5AD260CF2247D50E00F7CBEF /* sph_hamsi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_hamsi.h; sourceTree = "<group>"; };
+		5AD260D02247D50E00F7CBEF /* sph_luffa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_luffa.h; sourceTree = "<group>"; };
+		5AD260D12247D50F00F7CBEF /* sph_sha2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_sha2.h; sourceTree = "<group>"; };
+		5AD260D22247D50F00F7CBEF /* hamsi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hamsi.c; sourceTree = "<group>"; };
+		5AD260D32247D50F00F7CBEF /* hash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hash.cpp; sourceTree = "<group>"; };
+		5AD260D42247D51000F7CBEF /* skein.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = skein.c; sourceTree = "<group>"; };
+		5AD260D52247D51000F7CBEF /* sph_whirlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_whirlpool.h; sourceTree = "<group>"; };
+		5AD260D62247D51000F7CBEF /* whirlpool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = whirlpool.c; sourceTree = "<group>"; };
+		5AD260D72247D51000F7CBEF /* sph_cubehash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_cubehash.h; sourceTree = "<group>"; };
+		5AD260D92247D51100F7CBEF /* cubehash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cubehash.c; sourceTree = "<group>"; };
+		5AD260DA2247D51100F7CBEF /* blake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blake.c; sourceTree = "<group>"; };
+		5AD260DB2247D51100F7CBEF /* echo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = echo.c; sourceTree = "<group>"; };
+		5AD260DC2247D51200F7CBEF /* aes_helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes_helper.c; sourceTree = "<group>"; };
+		5AD260DE2247D51200F7CBEF /* sph_keccak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_keccak.h; sourceTree = "<group>"; };
 		6BA7F28F1FDF048100C1027B /* quark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = quark.h; sourceTree = "<group>"; };
 		6BA7F2901FDF048100C1027B /* quark.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quark.c; sourceTree = "<group>"; };
 		6BD745B21FE56EE500B94848 /* BRPivxUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPivxUtils.h; sourceTree = "<group>"; };
@@ -477,19 +538,6 @@
 		FB9CC2701F8E27B80079309F /* DWGenerateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWGenerateViewController.m; sourceTree = "<group>"; };
 		FBF2679F1E414877001A1C8B /* NSString+Dash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Dash.h"; sourceTree = "<group>"; };
 		FBF267A01E414877001A1C8B /* NSString+Dash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Dash.m"; sourceTree = "<group>"; };
-		FBF267A81E414A68001A1C8B /* Blake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Blake.c; sourceTree = "<group>"; };
-		FBF267AA1E414A68001A1C8B /* Bmw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Bmw.c; sourceTree = "<group>"; };
-		FBF267AC1E414A68001A1C8B /* CubeHash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CubeHash.c; sourceTree = "<group>"; };
-		FBF267AE1E414A68001A1C8B /* Echo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Echo.c; sourceTree = "<group>"; };
-		FBF267B01E414A68001A1C8B /* Groestl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Groestl.c; sourceTree = "<group>"; };
-		FBF267B21E414A68001A1C8B /* Jh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Jh.c; sourceTree = "<group>"; };
-		FBF267B41E414A68001A1C8B /* Keccak.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Keccak.c; sourceTree = "<group>"; };
-		FBF267B61E414A68001A1C8B /* Luffa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Luffa.c; sourceTree = "<group>"; };
-		FBF267B81E414A68001A1C8B /* Shavite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Shavite.c; sourceTree = "<group>"; };
-		FBF267BA1E414A68001A1C8B /* Simd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Simd.c; sourceTree = "<group>"; };
-		FBF267BC1E414A68001A1C8B /* Skein.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Skein.c; sourceTree = "<group>"; };
-		FBF267BD1E414A68001A1C8B /* sph_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_types.h; sourceTree = "<group>"; };
-		FBF267BE1E414A68001A1C8B /* aes_helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes_helper.c; sourceTree = "<group>"; };
 		FBF267FB1E414AA2001A1C8B /* DSShapeshiftManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSShapeshiftManager.h; sourceTree = "<group>"; };
 		FBF267FC1E414AA2001A1C8B /* DSShapeshiftManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSShapeshiftManager.m; sourceTree = "<group>"; };
 		FBF268021E414B93001A1C8B /* NSData+Dash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Dash.h"; sourceTree = "<group>"; };
@@ -1110,19 +1158,46 @@
 		FBF267A61E414A58001A1C8B /* x11 */ = {
 			isa = PBXGroup;
 			children = (
-				FBF267A81E414A68001A1C8B /* Blake.c */,
-				FBF267AA1E414A68001A1C8B /* Bmw.c */,
-				FBF267AC1E414A68001A1C8B /* CubeHash.c */,
-				FBF267AE1E414A68001A1C8B /* Echo.c */,
-				FBF267B01E414A68001A1C8B /* Groestl.c */,
-				FBF267B21E414A68001A1C8B /* Jh.c */,
-				FBF267B41E414A68001A1C8B /* Keccak.c */,
-				FBF267B61E414A68001A1C8B /* Luffa.c */,
-				FBF267B81E414A68001A1C8B /* Shavite.c */,
-				FBF267BA1E414A68001A1C8B /* Simd.c */,
-				FBF267BC1E414A68001A1C8B /* Skein.c */,
-				FBF267BD1E414A68001A1C8B /* sph_types.h */,
-				FBF267BE1E414A68001A1C8B /* aes_helper.c */,
+				5AD260DC2247D51200F7CBEF /* aes_helper.c */,
+				5AD260DA2247D51100F7CBEF /* blake.c */,
+				5AD260C92247D50C00F7CBEF /* bmw.c */,
+				5AD260D92247D51100F7CBEF /* cubehash.c */,
+				5AD260DB2247D51100F7CBEF /* echo.c */,
+				5AD260C22247D50A00F7CBEF /* fugue.c */,
+				5AD260C42247D50B00F7CBEF /* groestl.c */,
+				5AD260C02247D50A00F7CBEF /* hamsi_helper.c */,
+				5AD260D22247D50F00F7CBEF /* hamsi.c */,
+				5AD260D32247D50F00F7CBEF /* hash.cpp */,
+				5AD260CD2247D50E00F7CBEF /* hash.h */,
+				5AD260C52247D50B00F7CBEF /* haval.c */,
+				5AD260CB2247D50D00F7CBEF /* jh.c */,
+				5AD260CC2247D50E00F7CBEF /* keccak.c */,
+				5AD260BB2247D50800F7CBEF /* luffa.c */,
+				5AD260B92247D50800F7CBEF /* sha2.c */,
+				5AD260C62247D50C00F7CBEF /* shabal.c */,
+				5AD260B62247D50700F7CBEF /* shavite.c */,
+				5AD260BA2247D50800F7CBEF /* simd.c */,
+				5AD260D42247D51000F7CBEF /* skein.c */,
+				5AD260BD2247D50900F7CBEF /* sph_blake.h */,
+				5AD260CE2247D50E00F7CBEF /* sph_bmw.h */,
+				5AD260D72247D51000F7CBEF /* sph_cubehash.h */,
+				5AD260CA2247D50D00F7CBEF /* sph_echo.h */,
+				5AD260BE2247D50900F7CBEF /* sph_fugue.h */,
+				5AD260C72247D50C00F7CBEF /* sph_groestl.h */,
+				5AD260CF2247D50E00F7CBEF /* sph_hamsi.h */,
+				5AD260C12247D50A00F7CBEF /* sph_haval.h */,
+				5AD260BC2247D50900F7CBEF /* sph_jh.h */,
+				5AD260DE2247D51200F7CBEF /* sph_keccak.h */,
+				5AD260D02247D50E00F7CBEF /* sph_luffa.h */,
+				5AD260D12247D50F00F7CBEF /* sph_sha2.h */,
+				5AD260B72247D50700F7CBEF /* sph_sha2big.c */,
+				5AD260C82247D50C00F7CBEF /* sph_shabal.h */,
+				5AD260C32247D50B00F7CBEF /* sph_shavite.h */,
+				5AD260BF2247D50900F7CBEF /* sph_simd.h */,
+				5AD260B42247D50700F7CBEF /* sph_skein.h */,
+				5AD260B82247D50800F7CBEF /* sph_types.h */,
+				5AD260D52247D51000F7CBEF /* sph_whirlpool.h */,
+				5AD260D62247D51000F7CBEF /* whirlpool.c */,
 				6BA7F28F1FDF048100C1027B /* quark.h */,
 				6BA7F2901FDF048100C1027B /* quark.c */,
 			);
@@ -1191,7 +1266,6 @@
 				CEE253DB1E26B3B400A25B15 /* Icon Versioning */,
 				FB0ACB9A1F9A99E400F4AB52 /* ShellScript */,
 				16CF725B5FAE3ED8DFAF6824 /* [CP] Embed Pods Frameworks */,
-				6FC8EBE6517DBF10EAD705F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1447,21 +1521,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pivxwallet/Pods-pivxwallet-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6FC8EBE6517DBF10EAD705F8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pivxwallet/Pods-pivxwallet-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CEE253DB1E26B3B400A25B15 /* Icon Versioning */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1525,11 +1584,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD260E42247D51200F7CBEF /* luffa.c in Sources */,
 				22F04A001C9714EF00F137D8 /* BRUserDefaultsSwitchCell.m in Sources */,
 				6BD745B41FE56EE500B94848 /* BRPivxUtils.m in Sources */,
+				5AD260EB2247D51200F7CBEF /* jh.c in Sources */,
+				5AD260F02247D51300F7CBEF /* whirlpool.c in Sources */,
 				752E28AA19234AE300DB5A3C /* BRAddressEntity.m in Sources */,
+				5AD260E72247D51200F7CBEF /* groestl.c in Sources */,
 				2BFA52371FE08A8300A3C808 /* BaseController.swift in Sources */,
 				75AA5F55194143D5003F23BD /* BRBouncyBurgerButton.m in Sources */,
+				5AD260E22247D51200F7CBEF /* sha2.c in Sources */,
 				752E28AB19234AE300DB5A3C /* BRMerkleBlockEntity.m in Sources */,
 				2B8A1C9D1FEB594800C7427C /* EmptyTableCell.swift in Sources */,
 				BA7B53501BDA9A2800355E8D /* BRAppleWatchData.m in Sources */,
@@ -1540,13 +1604,17 @@
 				2BBE61A31FE4853B00D06CD7 /* AddressContactController.swift in Sources */,
 				FBF268041E414B93001A1C8B /* NSData+Dash.m in Sources */,
 				752E28AD19234AE300DB5A3C /* BRTransactionEntity.m in Sources */,
+				5AD260E82247D51200F7CBEF /* haval.c in Sources */,
 				752E28AE19234AE300DB5A3C /* BRTxInputEntity.m in Sources */,
 				752E28AF19234AE300DB5A3C /* BRTxOutputEntity.m in Sources */,
+				5AD260E52247D51200F7CBEF /* hamsi_helper.c in Sources */,
 				2B5735701FE04C4200110745 /* UIView+Anchors.swift in Sources */,
 				22DE8CF11D02407F007F07F3 /* BRWalletConstants.m in Sources */,
 				FBF2680F1E419318001A1C8B /* DSShapeshiftEntity+CoreDataProperties.m in Sources */,
 				2B5735761FE086F500110745 /* SetupController.swift in Sources */,
 				BAA4843C1B3EFFAF0075C749 /* UIImage+Utils.m in Sources */,
+				5AD260E12247D51200F7CBEF /* sph_sha2big.c in Sources */,
+				5AD260EE2247D51200F7CBEF /* hash.cpp in Sources */,
 				BA7B535C1BDBC36700355E8D /* BRTransaction+Utils.m in Sources */,
 				758DBD0E1980634900389E2A /* BRTxDetailViewController.m in Sources */,
 				FB021E4F1E42EB5F00D17638 /* NSAttributedString+Attachments.m in Sources */,
@@ -1556,6 +1624,7 @@
 				2204604E1B9F61E600D07B61 /* BREventManager.m in Sources */,
 				FBF267FD1E414AA2001A1C8B /* DSShapeshiftManager.m in Sources */,
 				752E28D219234C3600DB5A3C /* BRKey+BIP38.m in Sources */,
+				5AD260EF2247D51300F7CBEF /* skein.c in Sources */,
 				220460551BA0BEEE00D07B61 /* BREventConfirmView.m in Sources */,
 				752E28D919234C3600DB5A3C /* BRTransaction.m in Sources */,
 				752E28CE19234C3600DB5A3C /* BRBIP32Sequence.m in Sources */,
@@ -1563,6 +1632,8 @@
 				2B57356F1FE04C4200110745 /* PivxExtensions.swift in Sources */,
 				752E28CF19234C3600DB5A3C /* BRBIP39Mnemonic.m in Sources */,
 				752E28DA19234C3600DB5A3C /* BRWallet.m in Sources */,
+				5AD260E02247D51200F7CBEF /* shavite.c in Sources */,
+				5AD260F32247D51300F7CBEF /* blake.c in Sources */,
 				FB021E561E47E17200D17638 /* FBShimmeringLayer.m in Sources */,
 				752E28DB19234C3600DB5A3C /* BRWalletManager.m in Sources */,
 				752E28D319234C3600DB5A3C /* BRMerkleBlock.m in Sources */,
@@ -1579,10 +1650,12 @@
 				75878BC1192AEC3F002505AB /* BRReceiveViewController.m in Sources */,
 				75878BBF192ACD46002505AB /* BRAmountViewController.m in Sources */,
 				2BBE61B11FE48DA100D06CD7 /* LocalStore.swift in Sources */,
+				5AD260E92247D51200F7CBEF /* shabal.c in Sources */,
 				759816E719357D6F005060EA /* BRBubbleView.m in Sources */,
 				757BE7E3192C0E9D0061CB20 /* BRRestoreViewController.m in Sources */,
 				757BE7E6192C1FF70061CB20 /* BRWelcomeViewController.m in Sources */,
 				757BE7E9192D4E880061CB20 /* BRSeedViewController.m in Sources */,
+				5AD260EC2247D51200F7CBEF /* keccak.c in Sources */,
 				2B4838CD1FE21666001C8D09 /* DonationController.swift in Sources */,
 				752E28E719234DA200DB5A3C /* NSData+Bitcoin.m in Sources */,
 				FB9CC2711F8E27B80079309F /* DWGenerateViewController.m in Sources */,
@@ -1590,18 +1663,25 @@
 				752E28E919234DA200DB5A3C /* NSManagedObject+Sugar.m in Sources */,
 				BA7B53541BDAA0A800355E8D /* BRAppleWatchTransactionData.m in Sources */,
 				FB021E571E47E17200D17638 /* FBShimmeringView.m in Sources */,
+				5AD260F42247D51300F7CBEF /* echo.c in Sources */,
 				FBF267A11E414877001A1C8B /* NSString+Dash.m in Sources */,
 				FB021E5B1E4DEFE800D17638 /* MBProgressHUD.m in Sources */,
 				751B2B5C1B68911700EA87FB /* BRTxHistoryViewController.m in Sources */,
+				5AD260F22247D51300F7CBEF /* cubehash.c in Sources */,
 				752E28EA19234DA200DB5A3C /* NSMutableData+Bitcoin.m in Sources */,
 				752E28EB19234DA200DB5A3C /* NSString+Bitcoin.m in Sources */,
 				757C89521A2FCE420076B373 /* BRSettingsViewController.m in Sources */,
+				5AD260EA2247D51200F7CBEF /* bmw.c in Sources */,
+				5AD260E32247D51200F7CBEF /* simd.c in Sources */,
+				5AD260F52247D51300F7CBEF /* aes_helper.c in Sources */,
 				75D5F3D2191EC270004AB296 /* BRAppDelegate.m in Sources */,
+				5AD260ED2247D51200F7CBEF /* hamsi.c in Sources */,
 				759FBB36193290F600AB4465 /* BRRootViewController.m in Sources */,
 				752E289A192349CE00DB5A3C /* DashWallet.xcdatamodeld in Sources */,
 				2BFA523C1FE0AC5C00A3C808 /* MenuController.swift in Sources */,
 				6BA7F2911FDF048100C1027B /* quark.c in Sources */,
 				759FBB37193290F600AB4465 /* BRSendViewController.m in Sources */,
+				5AD260E62247D51200F7CBEF /* fugue.c in Sources */,
 				752E28F119234E8100DB5A3C /* Reachability.m in Sources */,
 				2BBE61A91FE48AEC00D06CD7 /* AddressContactCell.swift in Sources */,
 				75D5F3CE191EC270004AB296 /* main.m in Sources */,
@@ -1908,13 +1988,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon${BUNDLE_ID_SUFFIX}";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID_SUFFIX = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
 				CODE_SIGN_ENTITLEMENTS = pivxwallet/pivxwallet.entitlements;
 				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_TRIGRAPHS = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PivxWallet/PivxWallet-Prefix.pch";
+				GCC_SHORT_ENUMS = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1944,14 +2031,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon${BUNDLE_ID_SUFFIX}";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID_SUFFIX = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
 				CODE_SIGN_ENTITLEMENTS = pivxwallet/pivxwallet.entitlements;
 				DEVELOPMENT_TEAM = 99K9TZS9X5;
 				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_TRIGRAPHS = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PivxWallet/PivxWallet-Prefix.pch";
+				GCC_SHORT_ENUMS = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2226,13 +2320,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon${BUNDLE_ID_SUFFIX}";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID_SUFFIX = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
 				CODE_SIGN_ENTITLEMENTS = pivxwallet/pivxwallet.entitlements;
 				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_TRIGRAPHS = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PivxWallet/PivxWallet-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "TESTFLIGHT=1";
+				GCC_SHORT_ENUMS = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2440,10 +2541,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon${BUNDLE_ID_SUFFIX}";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID_SUFFIX = .testnet;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
 				CODE_SIGN_ENTITLEMENTS = pivxwallet/pivxwallet.entitlements;
 				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_TRIGRAPHS = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PivxWallet/PivxWallet-Prefix.pch";
@@ -2452,6 +2559,7 @@
 					"$(inherited)",
 					"DASH_TESTNET=1",
 				);
+				GCC_SHORT_ENUMS = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",

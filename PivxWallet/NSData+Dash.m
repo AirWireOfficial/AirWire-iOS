@@ -34,7 +34,7 @@
 {
     NSData * copy = [self copy];
     char *output = (char *)calloc(256, sizeof(char));
-    quark_hash(copy.bytes, output);
+    xevan_hash(copy.bytes, output);
     // Check if i have to dealloc something here.
     return *(const UInt256 *)output;
 }

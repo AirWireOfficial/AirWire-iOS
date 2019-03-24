@@ -68,7 +68,7 @@ static const char *dns_seeds[] = {
 // blockchain checkpoints - these are also used as starting points for partial chain downloads, so they need to be at
 // difficulty transition boundaries in order to verify the block difficulty at the immediately following transition
 static const struct { uint32_t height; const char *hash; uint32_t timestamp; uint32_t target; } checkpoint_array[] = {
-    {      0, "0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818", 1454124731, 0x1e0ffff0u },//dash
+    {      0, "00000a336d30cec30154fc0bf9450a4cad81525416cc7f639713dd7f0039653c", 1523711188, 0x1e0ffff0 },//dash
 //    {   1500, "000000aaf0300f59f49bc3e970bad15c11f961fe2347accffff19d96ec9778e3", 1390109863, 0x1e00ffffu },//dash
 //    {   4991, "000000003b01809551952460744d5dbb8fcbd6cbae3c220267bf7fa43f837367", 1390271049, 0x1c426980u },//dash
 //    {   9918, "00000000213e229f332c0ffbe34defdaa9e74de87f2d8d1f01af8d121c3c170b", 1391392449, 0x1c41cc20u },//dash
@@ -115,7 +115,7 @@ static const struct { uint32_t height; const char *hash; uint32_t timestamp; uin
 };
 
 static const char *dns_seeds[] = {
-    "x5.pivx.seed.fuzzbawls.pw", "x5.pivx.seed2.fuzzbawls.pw" // dnsseed.dashpay.io","dnsseed.masternode.io","dnsseed.dashdot.io"
+   "209.250.243.131","209.250.241.176","45.77.239.108","107.191.44.102","45.32.235.211"// dnsseed.dashpay.io","dnsseed.masternode.io","dnsseed.dashdot.io"
 };
 
 #endif
