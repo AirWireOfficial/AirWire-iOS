@@ -28,7 +28,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>tech.furszy.pivxwallet</string>
+	<string>tech.furszy.wirewallet</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

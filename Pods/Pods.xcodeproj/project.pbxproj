@@ -10,10 +10,10 @@
 		071DE4AE9E979D4849309429E77236E9 /* SlideMenuControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0BC680A96E40826668429BD458F27D /* SlideMenuControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		240F30FE056DF18A98515175A9932F70 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110A20D864C22E8570DA40FEABB3839 /* SlideMenuController.swift */; };
 		617F061E1FBFC0C9E1FC72F7341BDC03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7820E1A9DC16E596E2CF9393678D12C7 /* Pods-pivxwallet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A1B849F77603A453030FE400E73CA4 /* Pods-pivxwallet-dummy.m */; };
+		7820E1A9DC16E596E2CF9393678D12C7 /* Pods-wirewallet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A1B849F77603A453030FE400E73CA4 /* Pods-wirewallet-dummy.m */; };
 		7D3C3D7889083D80F2FFC51913D71A90 /* SlideMenuControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB21B13927C0FBF5B991E2B29373E209 /* SlideMenuControllerSwift-dummy.m */; };
 		80392EEA5E4A89A4DA6C7AF7A286C034 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		DEE979505CBA65B787EC26A1EEB5257A /* Pods-pivxwallet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1A78CAD688148F7BACB6A2674233A6 /* Pods-pivxwallet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEE979505CBA65B787EC26A1EEB5257A /* Pods-wirewallet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1A78CAD688148F7BACB6A2674233A6 /* Pods-wirewallet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,27 +29,27 @@
 /* Begin PBXFileReference section */
 		0D0BC680A96E40826668429BD458F27D /* SlideMenuControllerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-umbrella.h"; sourceTree = "<group>"; };
 		0EED61B8D215697F57286F0FF9404F4C /* SlideMenuControllerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideMenuControllerSwift.xcconfig; sourceTree = "<group>"; };
-		1C1A78CAD688148F7BACB6A2674233A6 /* Pods-pivxwallet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pivxwallet-umbrella.h"; sourceTree = "<group>"; };
+		1C1A78CAD688148F7BACB6A2674233A6 /* Pods-wirewallet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wirewallet-umbrella.h"; sourceTree = "<group>"; };
 		2D39FCF9B0B6CA34A1F9E4C8B8A93E4D /* SlideMenuControllerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-prefix.pch"; sourceTree = "<group>"; };
 		2DC831369A01B724486FBFFE4268181B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30A35F8C857A3FB34FDC6B353092C846 /* Pods-pivxwallet-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pivxwallet-frameworks.sh"; sourceTree = "<group>"; };
+		30A35F8C857A3FB34FDC6B353092C846 /* Pods-wirewallet-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wirewallet-frameworks.sh"; sourceTree = "<group>"; };
 		3FA7B792EFCA3A9C3003E19AB2DAC31A /* SlideMenuControllerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SlideMenuControllerSwift.modulemap; sourceTree = "<group>"; };
-		447F78F9ED283CD64CE8222722166182 /* Pods-pivxwallet-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pivxwallet-resources.sh"; sourceTree = "<group>"; };
-		51608C62A2D431710EFC6386AC3B9185 /* Pods-pivxwallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pivxwallet.debug.xcconfig"; sourceTree = "<group>"; };
+		447F78F9ED283CD64CE8222722166182 /* Pods-wirewallet-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wirewallet-resources.sh"; sourceTree = "<group>"; };
+		51608C62A2D431710EFC6386AC3B9185 /* Pods-wirewallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wirewallet.debug.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		63CA869E3013B1F3A07704D105EA075B /* Pods-pivxwallet.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pivxwallet.testflight.xcconfig"; sourceTree = "<group>"; };
-		756E1AAC175051147CD7885BC038B2C1 /* Pods-pivxwallet.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pivxwallet.testnet.xcconfig"; sourceTree = "<group>"; };
+		63CA869E3013B1F3A07704D105EA075B /* Pods-wirewallet.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wirewallet.testflight.xcconfig"; sourceTree = "<group>"; };
+		756E1AAC175051147CD7885BC038B2C1 /* Pods-wirewallet.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wirewallet.testnet.xcconfig"; sourceTree = "<group>"; };
 		8110A20D864C22E8570DA40FEABB3839 /* SlideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideMenuController.swift; path = Source/SlideMenuController.swift; sourceTree = "<group>"; };
-		90A1B849F77603A453030FE400E73CA4 /* Pods-pivxwallet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pivxwallet-dummy.m"; sourceTree = "<group>"; };
+		90A1B849F77603A453030FE400E73CA4 /* Pods-wirewallet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wirewallet-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B23FCE66D2024795C5A117E334273779 /* Pods-pivxwallet-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pivxwallet-acknowledgements.plist"; sourceTree = "<group>"; };
-		C1B93AB250630FD990BFDDA176A1A67C /* Pods-pivxwallet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-pivxwallet.modulemap"; sourceTree = "<group>"; };
+		B23FCE66D2024795C5A117E334273779 /* Pods-wirewallet-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wirewallet-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1B93AB250630FD990BFDDA176A1A67C /* Pods-wirewallet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wirewallet.modulemap"; sourceTree = "<group>"; };
 		C4FECC4A2C8EE2FFFD233E57558ED5A7 /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlideMenuControllerSwift.framework; path = SlideMenuControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77B2CB002924CB555EF2F3E2E486A5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8BA70035724E8331C6EEBFA6DAE27C4 /* Pods-pivxwallet-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pivxwallet-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CC41629BE8169F95AEE085583E7B56A2 /* Pods-pivxwallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pivxwallet.release.xcconfig"; sourceTree = "<group>"; };
+		C8BA70035724E8331C6EEBFA6DAE27C4 /* Pods-wirewallet-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wirewallet-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC41629BE8169F95AEE085583E7B56A2 /* Pods-wirewallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wirewallet.release.xcconfig"; sourceTree = "<group>"; };
 		DB21B13927C0FBF5B991E2B29373E209 /* SlideMenuControllerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlideMenuControllerSwift-dummy.m"; sourceTree = "<group>"; };
-		E432A899738D305F496689378A31D043 /* Pods_pivxwallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_pivxwallet.framework; path = "Pods-pivxwallet.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E432A899738D305F496689378A31D043 /* Pods_wirewallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wirewallet.framework; path = "Pods-wirewallet.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 		2EA69F4FDAF5ED393E3C951BCC4ED792 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E432A899738D305F496689378A31D043 /* Pods_pivxwallet.framework */,
+				E432A899738D305F496689378A31D043 /* Pods_wirewallet.framework */,
 				C4FECC4A2C8EE2FFFD233E57558ED5A7 /* SlideMenuControllerSwift.framework */,
 			);
 			name = Products;
@@ -84,7 +84,7 @@
 		38110F518FECDBFBD28D0553820CDD24 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F4A3C28E4604F13A712D64880492AFAB /* Pods-pivxwallet */,
+				F4A3C28E4604F13A712D64880492AFAB /* Pods-wirewallet */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -148,24 +148,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F4A3C28E4604F13A712D64880492AFAB /* Pods-pivxwallet */ = {
+		F4A3C28E4604F13A712D64880492AFAB /* Pods-wirewallet */ = {
 			isa = PBXGroup;
 			children = (
 				2DC831369A01B724486FBFFE4268181B /* Info.plist */,
-				C1B93AB250630FD990BFDDA176A1A67C /* Pods-pivxwallet.modulemap */,
-				C8BA70035724E8331C6EEBFA6DAE27C4 /* Pods-pivxwallet-acknowledgements.markdown */,
-				B23FCE66D2024795C5A117E334273779 /* Pods-pivxwallet-acknowledgements.plist */,
-				90A1B849F77603A453030FE400E73CA4 /* Pods-pivxwallet-dummy.m */,
-				30A35F8C857A3FB34FDC6B353092C846 /* Pods-pivxwallet-frameworks.sh */,
-				447F78F9ED283CD64CE8222722166182 /* Pods-pivxwallet-resources.sh */,
-				1C1A78CAD688148F7BACB6A2674233A6 /* Pods-pivxwallet-umbrella.h */,
-				51608C62A2D431710EFC6386AC3B9185 /* Pods-pivxwallet.debug.xcconfig */,
-				CC41629BE8169F95AEE085583E7B56A2 /* Pods-pivxwallet.release.xcconfig */,
-				63CA869E3013B1F3A07704D105EA075B /* Pods-pivxwallet.testflight.xcconfig */,
-				756E1AAC175051147CD7885BC038B2C1 /* Pods-pivxwallet.testnet.xcconfig */,
+				C1B93AB250630FD990BFDDA176A1A67C /* Pods-wirewallet.modulemap */,
+				C8BA70035724E8331C6EEBFA6DAE27C4 /* Pods-wirewallet-acknowledgements.markdown */,
+				B23FCE66D2024795C5A117E334273779 /* Pods-wirewallet-acknowledgements.plist */,
+				90A1B849F77603A453030FE400E73CA4 /* Pods-wirewallet-dummy.m */,
+				30A35F8C857A3FB34FDC6B353092C846 /* Pods-wirewallet-frameworks.sh */,
+				447F78F9ED283CD64CE8222722166182 /* Pods-wirewallet-resources.sh */,
+				1C1A78CAD688148F7BACB6A2674233A6 /* Pods-wirewallet-umbrella.h */,
+				51608C62A2D431710EFC6386AC3B9185 /* Pods-wirewallet.debug.xcconfig */,
+				CC41629BE8169F95AEE085583E7B56A2 /* Pods-wirewallet.release.xcconfig */,
+				63CA869E3013B1F3A07704D105EA075B /* Pods-wirewallet.testflight.xcconfig */,
+				756E1AAC175051147CD7885BC038B2C1 /* Pods-wirewallet.testnet.xcconfig */,
 			);
-			name = "Pods-pivxwallet";
-			path = "Target Support Files/Pods-pivxwallet";
+			name = "Pods-wirewallet";
+			path = "Target Support Files/Pods-wirewallet";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +175,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE979505CBA65B787EC26A1EEB5257A /* Pods-pivxwallet-umbrella.h in Headers */,
+				DEE979505CBA65B787EC26A1EEB5257A /* Pods-wirewallet-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,9 +207,9 @@
 			productReference = C4FECC4A2C8EE2FFFD233E57558ED5A7 /* SlideMenuControllerSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5D567A5064CC31414035042F39B74F90 /* Pods-pivxwallet */ = {
+		5D567A5064CC31414035042F39B74F90 /* Pods-wirewallet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CFEF0FE4979856F88512C9DE28A5190 /* Build configuration list for PBXNativeTarget "Pods-pivxwallet" */;
+			buildConfigurationList = 1CFEF0FE4979856F88512C9DE28A5190 /* Build configuration list for PBXNativeTarget "Pods-wirewallet" */;
 			buildPhases = (
 				C1FE38DF34B05CD46D9BB411A4BB239C /* Sources */,
 				853803B99183EA173E634D457BB7D01C /* Frameworks */,
@@ -220,9 +220,9 @@
 			dependencies = (
 				3220FE1F2BE8920CE19B59FE03C6C48F /* PBXTargetDependency */,
 			);
-			name = "Pods-pivxwallet";
-			productName = "Pods-pivxwallet";
-			productReference = E432A899738D305F496689378A31D043 /* Pods_pivxwallet.framework */;
+			name = "Pods-wirewallet";
+			productName = "Pods-wirewallet";
+			productReference = E432A899738D305F496689378A31D043 /* Pods_wirewallet.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -246,7 +246,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D567A5064CC31414035042F39B74F90 /* Pods-pivxwallet */,
+				5D567A5064CC31414035042F39B74F90 /* Pods-wirewallet */,
 				1D826447CE01EBC17A3E6A9873E2F6EE /* SlideMenuControllerSwift */,
 			);
 		};
@@ -266,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7820E1A9DC16E596E2CF9393678D12C7 /* Pods-pivxwallet-dummy.m in Sources */,
+				7820E1A9DC16E596E2CF9393678D12C7 /* Pods-wirewallet-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,7 +528,7 @@
 		};
 		B63A5C7CF49B5F435431C3559DD22C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51608C62A2D431710EFC6386AC3B9185 /* Pods-pivxwallet.debug.xcconfig */;
+			baseConfigurationReference = 51608C62A2D431710EFC6386AC3B9185 /* Pods-wirewallet.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -541,12 +541,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-pivxwallet/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-wirewallet/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-pivxwallet/Pods-pivxwallet.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-wirewallet/Pods-wirewallet.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -564,7 +564,7 @@
 		};
 		B8D2B4BE6F7C0E74A34149E5C122A6DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC41629BE8169F95AEE085583E7B56A2 /* Pods-pivxwallet.release.xcconfig */;
+			baseConfigurationReference = CC41629BE8169F95AEE085583E7B56A2 /* Pods-wirewallet.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -577,12 +577,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-pivxwallet/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-wirewallet/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-pivxwallet/Pods-pivxwallet.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-wirewallet/Pods-wirewallet.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -600,7 +600,7 @@
 		};
 		CC67D67A93AE3E7CF079252864DC4967 /* Testflight */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63CA869E3013B1F3A07704D105EA075B /* Pods-pivxwallet.testflight.xcconfig */;
+			baseConfigurationReference = 63CA869E3013B1F3A07704D105EA075B /* Pods-wirewallet.testflight.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -613,12 +613,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-pivxwallet/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-wirewallet/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-pivxwallet/Pods-pivxwallet.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-wirewallet/Pods-wirewallet.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -694,7 +694,7 @@
 		};
 		E02EF6FB3F73101E4496AC9194C6A583 /* Testnet */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 756E1AAC175051147CD7885BC038B2C1 /* Pods-pivxwallet.testnet.xcconfig */;
+			baseConfigurationReference = 756E1AAC175051147CD7885BC038B2C1 /* Pods-wirewallet.testnet.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -707,12 +707,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-pivxwallet/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-wirewallet/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-pivxwallet/Pods-pivxwallet.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-wirewallet/Pods-wirewallet.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -797,7 +797,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CFEF0FE4979856F88512C9DE28A5190 /* Build configuration list for PBXNativeTarget "Pods-pivxwallet" */ = {
+		1CFEF0FE4979856F88512C9DE28A5190 /* Build configuration list for PBXNativeTarget "Pods-wirewallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B63A5C7CF49B5F435431C3559DD22C6E /* Debug */,
