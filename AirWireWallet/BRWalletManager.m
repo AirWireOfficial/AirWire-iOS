@@ -52,7 +52,7 @@
 #define BITCOIN_TICKER_URL  @"https://bitpay.com/rates"
 // AirWire is not in Poloniex yet ;P
 //#define POLONIEX_TICKER_URL  @"https://poloniex.com/public?command=returnOrderBook&currencyPair=BTC_AirWire&depth=1"
-#define COINMARKETCAP_TICKER_URL @"https://api.coinmarketcap.com/v1/ticker/wire/"
+#define COINMARKETCAP_TICKER_URL @"https://api.coinmarketcap.com/v1/ticker/airwire/"
 #define TICKER_REFRESH_TIME 60.0
 
 #define SEED_ENTROPY_LENGTH   (256/8)
