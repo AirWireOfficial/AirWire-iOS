@@ -38,10 +38,10 @@ class Utils: NSObject {
     @objc static func configureNavigationBar(){
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for:.default)
         UINavigationBar.appearance().shadowImage = UIImage()
-        UINavigationBar.appearance().barTintColor = K.color.purple_r85g71b108
+        UINavigationBar.appearance().barTintColor = K.color.orange
         UINavigationBar.appearance().tintColor = .white
         UINavigationBar.appearance().isTranslucent = false
-        UINavigationBar.appearance().backgroundColor = K.color.purple_r85g71b108
+        UINavigationBar.appearance().backgroundColor = K.color.orange
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
     }
     
@@ -83,7 +83,7 @@ class Utils: NSObject {
         return navigationController
     }
     
-    @objc static func changeStatusBackgroundColor(color:UIColor = K.color.purple_r85g71b108){
+    @objc static func changeStatusBackgroundColor(color:UIColor = K.color.orange){
         UIApplication.shared.statusBarView?.backgroundColor = color
     }
     
@@ -150,7 +150,7 @@ class Utils: NSObject {
             case 2436:
                 return "iphoneX"
             default:
-                return ""
+                return "iphoneX"
             }
         }
         return ""

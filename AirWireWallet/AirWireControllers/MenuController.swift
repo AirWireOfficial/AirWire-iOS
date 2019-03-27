@@ -110,16 +110,16 @@ class MenuController: BaseController {
         
         switch optionSelected {
         case 1:
-            titleLabel1.textColor = K.color.purple_r85g71b108
+            titleLabel1.textColor = K.color.orange
             break
         case 2:
-            titleLabel2.textColor = K.color.purple_r85g71b108
+            titleLabel2.textColor = K.color.orange
             break
         case 3:
-            titleLabel3.textColor = K.color.purple_r85g71b108
+            titleLabel3.textColor = K.color.orange
             break
         case 4:
-            titleLabel4.textColor = K.color.purple_r85g71b108
+            titleLabel4.textColor = K.color.orange
             break
         default:
             print("default")

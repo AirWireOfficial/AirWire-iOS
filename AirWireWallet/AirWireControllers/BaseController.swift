@@ -36,7 +36,7 @@ class BaseController: UIViewController {
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController?.navigationBar.shadowImage = UIImage()
         navigationController?.navigationBar.isTranslucent = false
-        navigationController?.navigationBar.backgroundColor = K.color.purple_r85g71b108
+        navigationController?.navigationBar.backgroundColor = K.color.orange
         navigationItem.hidesBackButton = true
         let backButton = UIBarButtonItem(image: UIImage(named:"icBack"), style: .plain, target: self, action: #selector(tappedBackButton))
         navigationItem.leftBarButtonItem = backButton

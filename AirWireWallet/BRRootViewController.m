@@ -51,7 +51,7 @@
 
 #define BALANCE_TIP NSLocalizedString(@"This is your AirWire balance. AirWire is a currency. "\
 "The exchange rate changes with the market.", nil)
-#define MDASH_TIP    NSLocalizedString(@"%@ is for 'mPIV'. %@ = 1 WIRE.", nil)
+#define MDASH_TIP    NSLocalizedString(@"%@ is for 'mWIRE'. %@ = 1 WIRE.", nil)
 
 #define BACKUP_DIALOG_TIME_KEY @"BACKUP_DIALOG_TIME"
 #define BALANCE_KEY            @"BALANCE"
@@ -127,7 +127,8 @@
     //self.pageViewController.dataSource = self;
     
     UIColor *purple = [UIColor rgb:85 green:71 blue:108 alpha:1];
-    
+    UIColor *orange = [UIColor rgb:225 green:71 blue:19 alpha:1];
+
     CGFloat y = self.view.frame.size.height - 114;
     if ([[Utils deviceType] isEqualToString:@"iphoneX"]) {
         y = y - 22;
@@ -139,13 +140,13 @@
     UIButton *receive = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, width/2, 50)];
     [receive setTitle:@"RECEIVE" forState:UIControlStateNormal];
     [receive setTintColor:UIColor.whiteColor];
-    [receive setBackgroundColor:purple];
+    [receive setBackgroundColor:orange];
     [receive addTarget:self action:@selector(tappedReceiveButton) forControlEvents:UIControlEventTouchUpInside];
     
     UIButton *send = [[UIButton alloc] initWithFrame:CGRectMake((width/2) + 1 , 0, (width/2) - 1, 50)];
     [send setTitle:@"SEND" forState:UIControlStateNormal];
     [send setTintColor:UIColor.whiteColor];
-    [send setBackgroundColor:purple];
+    [send setBackgroundColor:orange];
     [send addTarget:self action:@selector(tappedSendButton) forControlEvents:UIControlEventTouchUpInside];
     
     [self.buttonContainer addSubview:send];
@@ -546,7 +547,8 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    UIColor *color = [UIColor rgb:85 green:71 blue:108 alpha:1];
+    
+    UIColor *color = [UIColor rgb:255 green:71 blue:19 alpha:1];
     [Utils changeStatusBackgroundColorWithColor:color];
     [self addMenuButton];
     //UIColor *color = [UIColor colorWithRed:85.0f/255.0f green:71.0f/255.0f blue:188/255.0f alpha:1.0f];

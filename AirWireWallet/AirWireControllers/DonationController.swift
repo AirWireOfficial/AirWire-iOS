@@ -19,7 +19,7 @@ class DonationController: BaseController {
     var address:String!;
     
     override func setup(){
-        donateButton.border(cornerRadius: 5, color: K.color.purple_r85g71b108)
+        donateButton.border(cornerRadius: 5, color: K.color.orange)
         if(Utils.isTestnet){
             self.address = TESTNET_DONATE_ADDRESS;
         }else{
