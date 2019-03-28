@@ -28,13 +28,6 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2d2-8G-1qi">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgHeaderLogo" translatesAutoresizingMaskIntoConstraints="NO" id="aYD-BY-uRC">
-                            <rect key="frame" x="16" y="45" width="100" height="30"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="30" id="87c-n2-5b1"/>
-                                <constraint firstAttribute="width" constant="100" id="9QZ-Yh-I6B"/>
-                            </constraints>
-                        </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wallet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYa-70-QEr">
                             <rect key="frame" x="16" y="83" width="43" height="18.5"/>
                             <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
@@ -48,8 +41,15 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgHeaderLogo" translatesAutoresizingMaskIntoConstraints="NO" id="aYD-BY-uRC">
+                            <rect key="frame" x="16" y="45" width="100" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="87c-n2-5b1"/>
+                                <constraint firstAttribute="width" constant="100" id="9QZ-Yh-I6B"/>
+                            </constraints>
+                        </imageView>
                     </subviews>
-                    <color key="backgroundColor" red="0.33333333329999998" green="0.2784313725" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.86863094569999999" green="0.34240612390000003" blue="0.2076710165" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <constraints>
                         <constraint firstItem="aYD-BY-uRC" firstAttribute="top" secondItem="2d2-8G-1qi" secondAttribute="top" constant="45" id="6Ls-uu-9C9"/>
                         <constraint firstAttribute="height" constant="130" id="LKa-Iq-shb"/>
@@ -270,7 +270,7 @@
         <image name="icDonations" width="28" height="23"/>
         <image name="icSettings" width="26" height="26"/>
         <image name="icWallet" width="26" height="26"/>
-        <image name="imgHeaderLogo" width="102" height="29"/>
+        <image name="imgHeaderLogo" width="1297" height="242"/>
         <image name="imgNavLogo" width="73" height="90"/>
     </resources>
 </document>

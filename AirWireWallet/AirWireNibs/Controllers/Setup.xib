@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SetupController" customModule="breadwallet" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SetupController" customModule="wirewallet" customModuleProvider="target">
             <connections>
                 <outlet property="containerView" destination="vfi-QN-0lW" id="9Ts-l0-AJ5"/>
                 <outlet property="pageControl" destination="u7z-Cx-X5P" id="dHL-HT-pe0"/>
@@ -27,7 +27,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vfi-QN-0lW">
-                            <rect key="frame" x="0.0" y="0.0" width="374" height="616"/>
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="617"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="374" id="3RK-gY-OPU"/>
@@ -100,7 +100,7 @@
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" red="0.33333333329999998" green="0.2784313725" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.86863094569999999" green="0.34240612390000003" blue="0.2076710165" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <constraints>
                 <constraint firstItem="O47-2M-LWy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="JLl-Bv-aGr"/>
                 <constraint firstItem="O47-2M-LWy" firstAttribute="top" secondItem="M3T-yg-FdX" secondAttribute="bottom" id="NKN-t6-LQn"/>

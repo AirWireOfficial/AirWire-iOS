@@ -535,7 +535,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsLetterSpacingToFitWidth="YES" preferredMaxLayoutWidth="260" translatesAutoresizingMaskIntoConstraints="NO" id="5aq-jh-ZjP">
-                                <rect key="frame" x="30" y="41" width="354" height="167"/>
+                                <rect key="frame" x="30" y="41" width="354" height="50"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -543,7 +543,7 @@
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cameraguide" translatesAutoresizingMaskIntoConstraints="NO" id="uEW-dq-bFQ">
-                                <rect key="frame" x="90" y="229" width="234" height="234"/>
+                                <rect key="frame" x="-27" y="112" width="468" height="468"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1VG-Fh-Hjg">
                                 <rect key="frame" x="0.0" y="692" width="414" height="44"/>
@@ -1106,18 +1106,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="sGg-im-iWo">
-                                <rect key="frame" x="157" y="114" width="100" height="120"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="4WG-YZ-t9d"/>
-                                    <constraint firstAttribute="height" constant="120" id="QHY-iP-O0Z"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fT-s3-WCA">
-                                <rect key="frame" x="16" y="322" width="382" height="92"/>
-                                <string key="text">AirWire (Private, Instant, Verified, Transactions)
-is a privacy-focused, decentralized, open source cryptocurrency run by
-a global community comprised of creators, innovators, and technology enthusiasts.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AirWire is a fully built, patent pending, user-driven, token distribution platform." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fT-s3-WCA">
+                                <rect key="frame" x="16" y="349.66666666666669" width="382" height="37"/>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1156,6 +1146,13 @@ a global community comprised of creators, innovators, and technology enthusiasts
                                     <action selector="recover:" destination="jSI-EH-TU3" eventType="touchUpInside" id="3LA-Wu-m6t"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="sGg-im-iWo">
+                                <rect key="frame" x="87" y="114" width="241" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="4WG-YZ-t9d"/>
+                                    <constraint firstAttribute="height" constant="120" id="QHY-iP-O0Z"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.86863094568252563" green="0.34240612387657166" blue="0.20767101645469666" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
@@ -1184,7 +1181,7 @@ a global community comprised of creators, innovators, and technology enthusiasts
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hTO-3U-AsH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1276" y="2158"/>
+            <point key="canvasLocation" x="1275.3623188405797" y="2157.880434782609"/>
         </scene>
         <!--Confirm:-->
         <scene sceneID="2Hc-ez-bvO">
@@ -2007,8 +2004,8 @@ coinmarketcap.com</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="ynx-aw-RxB">
-                                <rect key="frame" x="157" y="114" width="100" height="120"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="ynx-aw-RxB">
+                                <rect key="frame" x="54" y="114" width="309" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="42C-lz-qUS"/>
                                     <constraint firstAttribute="height" constant="120" id="ZxQ-En-Pha"/>
@@ -2045,6 +2042,18 @@ coinmarketcap.com</string>
                                 </state>
                                 <connections>
                                     <action selector="generateRecoveryPhrase:" destination="gE8-de-XET" eventType="touchUpInside" id="1sj-GU-TQS"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efL-Cj-Aho">
+                                <rect key="frame" x="293" y="676" width="121" height="60"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <inset key="contentEdgeInsets" minX="60" minY="20" maxX="20" maxY="20"/>
+                                <size key="titleShadowOffset" width="0.0" height="1"/>
+                                <state key="normal" title="show">
+                                    <color key="titleColor" red="0.33333333329999998" green="0.2784313725" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="show:" destination="gE8-de-XET" eventType="touchUpInside" id="Yig-X3-mcO"/>
                                 </connections>
                             </button>
                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="320" translatesAutoresizingMaskIntoConstraints="NO" id="rLQ-Ub-gHT">
@@ -2089,18 +2098,6 @@ Other devices may be infected.
                                 <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.14999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efL-Cj-Aho">
-                                <rect key="frame" x="293" y="676" width="121" height="60"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <inset key="contentEdgeInsets" minX="60" minY="20" maxX="20" maxY="20"/>
-                                <size key="titleShadowOffset" width="0.0" height="1"/>
-                                <state key="normal" title="show">
-                                    <color key="titleColor" red="0.33333333329999998" green="0.2784313725" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="show:" destination="gE8-de-XET" eventType="touchUpInside" id="Yig-X3-mcO"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.86863094568252563" green="0.34240612387657166" blue="0.20767101645469666" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
@@ -2133,7 +2130,7 @@ Other devices may be infected.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lwV-64-ncq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1988" y="2159"/>
+            <point key="canvasLocation" x="1986.9565217391305" y="2157.880434782609"/>
         </scene>
         <!--Recovery phrase:-->
         <scene sceneID="MGQ-cg-FBt">
@@ -2690,12 +2687,12 @@ Other devices may be infected.
         <image name="icKeyBack" width="28" height="20"/>
         <image name="icQrCode" width="25" height="25"/>
         <image name="imgButtonHover" width="282" height="38"/>
-        <image name="imgHeaderLogo" width="102" height="29"/>
+        <image name="imgHeaderLogo" width="1297" height="242"/>
         <image name="imgRecieve" width="120" height="111"/>
         <image name="imgSend" width="111" height="115"/>
         <image name="imgTransactionEmpty" width="105" height="105"/>
         <image name="lock" width="18" height="23"/>
-        <image name="logo" width="140" height="171"/>
+        <image name="logo" width="1297" height="242"/>
         <image name="refresh" width="9" height="11"/>
         <image name="shapeshift" width="128" height="128"/>
     </resources>
