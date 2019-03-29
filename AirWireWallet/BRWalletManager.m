@@ -716,8 +716,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     }
     
     // TODO explain reason when touch id is disabled after 30 days without pin unlock
-    [self authenticatePinWithTitle:[NSString stringWithFormat:NSLocalizedString(@"passcode for %@", nil),
-                                    DISPLAY_NAME] message:authprompt alertIfLockout:alertIfLockout completion:^(BOOL authenticated, BOOL cancelled) {
+    [self authenticatePinWithTitle: @"passcode for wallet" message:authprompt alertIfLockout:alertIfLockout completion:^(BOOL authenticated, BOOL cancelled) {
         if (authenticated) {
             [self.pinAlertController dismissViewControllerAnimated:TRUE completion:^{
                 completion(YES,NO);

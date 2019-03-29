@@ -106,7 +106,7 @@ extension AddressContactController:UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         if state == .empty {
             let footer = tableView.dequeueReusableHeaderFooterView(withIdentifier: emptyIdentifier) as! EmptyCell
-            footer.cofigureWith(title: "You don’t have any saved address yet", name: "imgAddressEmpty")
+            footer.cofigureWith(title: "You don’t have any saved adresses yet", name: "imgAddressEmpty")
             return footer
         }
         return nil
