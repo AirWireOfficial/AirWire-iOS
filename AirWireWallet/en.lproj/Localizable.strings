@@ -140,7 +140,7 @@
 "checking private key balance..." = "checking private key balance...";
 
 /* No comment provided by engineer. */
-"choose passcode for %@" = "choose passcode for %@";
+"choose passcode for %@" = "choose passcode for wallet";
 
 /* No comment provided by engineer. */
 "clear" = "clear";

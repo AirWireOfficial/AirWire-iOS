@@ -1079,7 +1079,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
 // prompts the user to set or change their wallet pin and returns true if the pin was successfully set
 - (void)setBrandNewPinWithCompletion:(void (^ _Nullable)(BOOL success))completion {
     NSString *title = [NSString stringWithFormat:CIRCLE @"\t" CIRCLE @"\t" CIRCLE @"\t" CIRCLE @"\n%@",
-                       [NSString stringWithFormat:NSLocalizedString(@"choose passcode for %@", nil), DISPLAY_NAME]];
+                       [NSString stringWithFormat:NSLocalizedString(@"choose passcode for wallet", nil), DISPLAY_NAME]];
     if (!self.pinAlertController) {
         self.pinAlertController = [UIAlertController
                                    alertControllerWithTitle:title
@@ -1174,7 +1174,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
                     v.center = CGPointMake(p.x - v.bounds.size.width, p.y);
                 } completion:^(BOOL finished) {
                     self.pinAlertController.title = [NSString stringWithFormat:CIRCLE @"\t" CIRCLE @"\t" CIRCLE @"\t" CIRCLE @"\n%@",
-                                                     [NSString stringWithFormat:NSLocalizedString(@"choose passcode for %@", nil), DISPLAY_NAME]];
+                                                     [NSString stringWithFormat:NSLocalizedString(@"choose passcode for %@", "wallet"), DISPLAY_NAME]];
                     self.pinAlertController.message = nil;
                     v.center = CGPointMake(p.x + v.bounds.size.width*2, p.y);
                     [UIView animateWithDuration:0.3 delay:0.0 usingSpringWithDamping:0.8 initialSpringVelocity:0 options:0
