@@ -184,7 +184,7 @@
 
 - (IBAction)about:(id)sender
 {
-    SFSafariViewController * safariViewController = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:@"https://www.github.com/AirWire-Project/AirWire-iOS/"]];
+    SFSafariViewController * safariViewController = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:@"https://airwire.io/"]];
     [self presentViewController:safariViewController animated:YES completion:nil];
 }
 
